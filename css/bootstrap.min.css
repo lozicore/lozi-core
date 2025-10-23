@@ -501,7 +501,14 @@ mark {
 
 .img-fluid {
     width: 100%;
-    height: auto
+    height: auto;
+    box-shadow: #008cc7 0px 1px 0px, #008cc7 0px 0px 8px;
+}
+
+.img-fluid2 {
+    width: 80%;
+    height: auto;
+    box-shadow: #008cc7 0px 1px 0px, #008cc7 0px 0px 8px;
 }
 
 .img-thumbnail {
@@ -651,6 +658,15 @@ pre code {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.row2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1563,6 +1579,7 @@ pre code {
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 500px;
+        margin: 5%;
     }
 
     .col-lg-6 {
@@ -10471,7 +10488,7 @@ button.bg-dark:hover {
 
     .pr-lg-5,
     .px-lg-5 {
-        padding-right: 3rem !important
+
     }
 
     .pb-lg-5,

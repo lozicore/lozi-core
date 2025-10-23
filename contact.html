@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Business Oriented - Contact Page</title>
+    <title>lozi core</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
     <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="tm-logo">
-                        <img src="img/lozi logo.jpg">
+                        <img src="img/lozicore logo_page-0001.png">
                     </div>
                 </div>
             </div>
@@ -64,6 +64,13 @@
             <div class="col-12">
                 <section class="tm-contact-form-box mx-auto mb-7">
                     <h3 class="tm-title-gray mb-4 text-center">Contact Us</h3>
+                    <hr class="mb-5 tm-hr tm-hr-s mx-auto">
+                    <div class="contac">
+                        <div class="item"><i class="fa-solid fa-envelope"></i><p>m.alkhawaldeh@lozicore.com</p></div>
+                        <div class="item"><i class="fa-solid fa-envelope"></i><p>d.mansour@Lozicore.com</p></div>
+                        <div class="item"><i class="fa-solid fa-phone"></i><p>+966-535374935</p></div>
+                    </div>
+                    <h3 class="tm-title-gray mb-4 text-center">Or Send Us An Email</h3>
                     <hr class="mb-8 tm-hr tm-hr-s mx-auto">
                     <form id="contact-form" action="" method="POST" name="form" class="tm-contact-form">
                         <div class="form-group">
@@ -155,7 +162,7 @@
         document.getElementById('contact-form').addEventListener('submit', function (event) {
             event.preventDefault(); // stops the page from reloading
 
-            emailjs.sendForm('service_dsj4q8r', 'template_wb7qk4i', this)
+            emailjs.sendForm('service_d4sg6r5', 'template_wb7qk4i', this)
                 .then(function () {
                     alert('✅ Message sent successfully!');
                 }, function (error) {
