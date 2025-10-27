@@ -506,7 +506,7 @@ mark {
 }
 
 .img-fluid2 {
-    width: 80%;
+    width: 100%;
     height: auto;
     box-shadow: #008cc7 0px 1px 0px, #008cc7 0px 0px 8px;
 }
@@ -658,6 +658,15 @@ pre code {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.row0 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -9024,7 +9033,7 @@ button.bg-dark:hover {
 
 .mb-4,
 .my-4 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1rem !important
 }
 
 .ml-4,
@@ -9048,7 +9057,7 @@ button.bg-dark:hover {
 
 .mb-5,
 .my-5 {
-    margin-bottom: 3rem !important
+    margin-bottom: 1.5rem !important
 }
 
 .ml-5,
@@ -9438,7 +9447,7 @@ button.bg-dark:hover {
 
     .ml-sm-3,
     .mx-sm-3 {
-        margin-left: 1rem !important
+        margin-left: 13rem !important
     }
 
     .m-sm-4 {
