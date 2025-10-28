@@ -605,6 +605,17 @@ pre code {
     .container {
         max-width: 1140px
     }
+
+
+}
+
+@media (min-width:1300px) {
+
+
+    .ml-sm-3,
+    .mx-sm-3 {
+        margin-left: 13rem !important
+    }
 }
 
 .container-fluid,
@@ -9446,10 +9457,7 @@ button.bg-dark:hover {
         margin-bottom: 1rem !important
     }
 
-    .ml-sm-3,
-    .mx-sm-3 {
-        margin-left: 13rem !important
-    }
+
 
     .m-sm-4 {
         margin: 1.5rem !important

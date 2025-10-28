@@ -8,8 +8,8 @@ function calculateHeight(img, originalWidth, originalHeight) {
 function resizeParallaxes() {
     const parallax1 = $('#parallax-1');
     const parallax2 = $('#parallax-2');
-    const newHeight1 = calculateHeight(parallax1, 1800, 300);
-    const newHeight2 = calculateHeight(parallax2, 1800, 300);
+    const newHeight1 = calculateHeight(parallax1, 4032, 400);
+    const newHeight2 = calculateHeight(parallax2, 1800, 400);
     parallax1.css('min-height', newHeight1 + 'px');
     parallax2.css('min-height', newHeight2 + 'px');
 }
