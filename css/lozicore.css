@@ -46,10 +46,16 @@ p {
 .tm-title-gray { color: var(--primary-color); font-weight: bold;}
 
 .tm-hr {
-    width: 100px;
+    width: 100%;
     border-top: 3px solid var(--primary-color);
     margin: 0;
 }
+
+
+.linebox{
+    width: fit-content;
+}
+
 
 .contac {
   display: flex;
@@ -79,6 +85,19 @@ p {
 .contac .item p {
   margin: 0;
   word-break: break-all; /* prevents long emails from overflowing */
+}
+
+
+.more{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more a{
+    margin: 20px;
+
 }
 
 .tm-hr-s { width: 140px; }
@@ -189,9 +208,11 @@ h4 { font-size: 1.5rem; }
 .mb-55 { margin: 10px; }
 .mb-60 { margin-bottom: 60px; }
 .mb-10 { margin-bottom: 100px; }
+.mb-11 { margin-bottom: 40px; }
 .mb-25 { margin-bottom: 250px; }
+.mt-5 { margin-top: 50px; }
 .mt-6 { margin-top: 90px; }
-.mt-7 { margin-top: 140px; }
+.mt-7 { margin-top: 50px; }
 .tm-px-3 {
     padding-left: 30px;
     padding-right: 30px;
